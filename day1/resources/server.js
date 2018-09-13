@@ -1,7 +1,6 @@
 /*
-* cmd.js
-* In this example we see how to access commmand
-* line arguments.
+* server.js
+* In this example we see how to create a simple server.
 */
 var http = require('http');
 var port = 3000;

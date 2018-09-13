@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Character set -->
+  <meta charset="utf-8">
+
+  <!-- Page title -->
+  <title>Products website</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="page-header">
+      <h1>SuperMarket
+        <small>Products</small>
+      </h1>
+    </div>
+    
+    <div class="form-inline">
+      <input id="pname" type="text" class="input-small" placeholder="Name">
+      <input id="pdesc" type="text" class="input-small" placeholder="Description">
+      <button type="submit" class="btn opt-add">Add</button>
+    </div>
+
+    <!-- here we will load the list of products -->
+    <ul class="unlisted products">
+
+    </ul>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>

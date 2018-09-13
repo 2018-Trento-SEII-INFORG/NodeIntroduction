@@ -1,0 +1,14 @@
+{
+  "name": "forms",
+  "version": "1.0.0",
+  "description": "Showcases how to handle basic form requests",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
