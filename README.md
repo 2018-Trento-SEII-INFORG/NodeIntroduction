@@ -50,23 +50,25 @@ Api.ai:
 
 
 
-# Node.js Tutorial
+# Web 2.0
 
-Node.js is a server-side platform built on Google Chrome's JavaScript Engine (V8 Engine). Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
+Il web 2.0 si è sviluppato attorno agli anni 2000 grazie ad un insieme di diverse tecnologie a cui è stato dato il nome di AJAX, abbreviazione di Asynchronous JavaScript + XML. Gmail e Google Maps sono due esempi di questo nuovo approccio alle applicazioni web.
 
-We are not going to cover the all the features, only the basics. If you want to know more about how Node.js works, checkout some videos on youtube:
+![Web 1.0 e 2.0](http://www.adaptivepath.org/uploads/archive/images/publications/essays/ajax-fig1_small.png?timestamp=1536825780398)
+
+Links:
+- https://en.wikipedia.org/wiki/Ajax_(programming)
+- http://www.adaptivepath.org/ideas/ajax-new-approach-web-applications/
+
+## Node.js
+
+Node.js è una piattaforma web lato server basata su JavaScript Engine (V8 Engine) di Google Chrome. Node.js usa un modello di elaborazione delle richieste http non bloccante, basato sugli eventi.
+
+Con Node.js javascript è diventato il linguaggio del web, non più solo per quanto riguarda il lato client (browser) ma ora anche lato server.
+
+Per un introduzione alle principali caratteristiche di Node.js si veda il seguente video:
 
 [![](http://img.youtube.com/vi/jOupHNvDIq8/0.jpg)](http://www.youtube.com/watch?v=jOupHNvDIq8 "")
 
-
-In this hands-on tutorial, the goal is to give you some pointers and tools so you can start building your own node.js applications.
-
-
-## Installation
-You can install Node.js by following the instructions from the Node.js project webpage ([https://nodejs.org/en/](https://nodejs.org/en/)).
-
-If you're using a package manager in your OS, you might find ports already available. For example:
-- [Installing nodejs using MacPorts](https://jonlabelle.com/snippets/view/shell/install-nodejs-macport). 
-- [Installing nodejs in Ubuntu](https://websiteforstudents.com/install-the-latest-node-js-and-nmp-packages-on-ubuntu-16-04-18-04-lts/)
-- If you're using anything else, you probably know what you're doing :)
-
+### Installazione
+Potete installare Node.js seguendo le istruzioni dalla pagina ufficiale ([https://nodejs.org/en/](https://nodejs.org/en/)).
