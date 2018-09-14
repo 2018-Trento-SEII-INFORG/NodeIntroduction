@@ -1,6 +1,6 @@
 # Corso di Ingegneria del Software 2 - Laboratorio
 2018-2019
-DISI - University of Trento
+DISI - Università di Trento
 Materiale didattico
 
 ## Software richiesto:
